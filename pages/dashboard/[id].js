@@ -6,8 +6,23 @@ const Post = () => {
     const { id } = router.query
 
     return (
-        <div>
-            Blog: {id}
+        <div className='text-center font-bold text-7xl'>
+            <style jsx global>
+                {
+                    `
+                    .para{
+                        background:red;
+                        padding:20px;
+                        margin:50px;
+                    }
+                    `
+                }
+            </style>
+
+            <button className='btn btn-primary'>Button</button>
+            <p className='para text-2xl'> Blog: {id}</p>
+
+
         </div>
     );
 };
