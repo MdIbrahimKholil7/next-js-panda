@@ -21,34 +21,33 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
+        <div className={`${styles.grid} `}>
+          <div className={`${styles.card} cursor-pointer`}>
+            <h2>Learn JavaScript</h2>
             <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
+          <div className={`${styles.card} cursor-pointer`}>
+            <h2>Learn Redux</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
+          <div
+           
+            className={`${styles.card} cursor-pointer`}
           >
-            <h2>Examples &rarr;</h2>
+            <h2>Learn Next Js</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
+          <div
+            className={`${styles.card} cursor-pointer`}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Learn Node Js</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </div>
         </div>
       </main>
 
